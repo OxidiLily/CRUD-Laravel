@@ -76,7 +76,6 @@ class StudentsController extends Controller
             'txtemail'=>$data->email,
             'txtphone'=>$data->phone
         ]);
-        echo $data->nama;
     }
 
     /**
